@@ -30,3 +30,6 @@ jobs:
 
       - name: Run Ruff
         run: ruff check git/src
+
+      - name: Ruff format
+        run: ruff format --check git/src
